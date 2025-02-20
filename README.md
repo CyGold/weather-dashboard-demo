@@ -65,6 +65,6 @@ AWS S3 bucket creation and management
 Environment variable management for secure API keys
 Python best practices for API integration
 Git workflow for project development
-Error handling in distributed systems
+Error handling in distributed syste
 Cloud resource management#
 Dynamic Weather Retrieval: Fetches weather data for Houston, Austin, and Dallas in real-time. • Error Handling: Improved resilience for API failures and bucket operations. • Resource Cleanup: Ensures AWS resources are cleaned up properly using the delete action.
