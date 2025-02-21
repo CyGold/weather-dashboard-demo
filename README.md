@@ -39,26 +39,28 @@ weather-dashboard-demo/
    
 2. Create a python virtual environment and activate it:
   ```bash
-  python3 -m venv myenv
-  source myenv/bin/activate ```
+    python3 -m venv myenv
+    source myenv/bin/activate ```
 
 3. Install dependencies:
-```bash
-pip install -r requirements.txt```
+  ```bash
+    pip install -r requirements.txt```
 
 4. Configure environment variables (.env):
-```bash
-echo OPENWEATHER_API_KEY=your_api_key >> .env
-echo AWS_BUCKET_NAME=your_bucket_name{RANDOM} >> .env
+    ```bash
+    echo OPENWEATHER_API_KEY=your_api_key >> .env
+    echo AWS_BUCKET_NAME=your_bucket_name{RANDOM} >> .env
 
 4.Configure AWS credentials:
-```bash
-aws configure
+    ```bash
+  aws configure
 
 5. Run the application:
-```python3 src/weather_dashboard.py
+    ```python3 src/weather_dashboard.py
 
-Dynamic Weather Retrieval: Fetches weather data for Abia,ng Minna, and Abuja in real-time. • Error Handling: Improved resilience for API failures and bucket operations. • Resource Cleanup: Ensures AWS resources are cleaned up properly using the delete action.
+Dynamic Weather Retrieval: Fetches weather data for Abia,ng Minna, and Abuja in real-time. 
+• Error Handling: Improved resilience for API failures and bucket operations. 
+• Resource Cleanup: Ensures AWS resources are cleaned up properly using the delete action.
 
 ## WhatILearned
 AWS S3 bucket creation and management
