@@ -38,7 +38,7 @@ weather-dashboard-demo/
    git clone https://github.com/CyGold/weather-dashboard-demo.git 
    
 2. Create a python virtual environment and activate it:
- ```bash
+  ```bash
   python3 -m venv myenv
   source myenv/bin/activate ```
 
