@@ -35,16 +35,16 @@ weather-dashboard-demo/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/CyGold/weather-dashboard-demo.git
+   git clone https://github.com/CyGold/weather-dashboard-demo.git 
    
 2. Create a python virtual environment and activate it:
  ```bash
   python3 -m venv myenv
-   source myenv/bin/activate 
+  source myenv/bin/activate ```
 
 3. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 4. Configure environment variables (.env):
 ```bash
@@ -58,13 +58,13 @@ aws configure
 5. Run the application:
 ```python3 src/weather_dashboard.py
 
-after Installation, if you dont want to incur costs, you empty then delte the S3 bucket on the aws console
-## Highlights
- What I Learned
+Dynamic Weather Retrieval: Fetches weather data for Abia,ng Minna, and Abuja in real-time. • Error Handling: Improved resilience for API failures and bucket operations. • Resource Cleanup: Ensures AWS resources are cleaned up properly using the delete action.
+
+## WhatILearned
 AWS S3 bucket creation and management
 Environment variable management for secure API keys
 Python best practices for API integration
 Git workflow for project development
-Error handling in distributed syste
-Cloud resource management#
-Dynamic Weather Retrieval: Fetches weather data for Houston, Austin, and Dallas in real-time. • Error Handling: Improved resilience for API failures and bucket operations. • Resource Cleanup: Ensures AWS resources are cleaned up properly using the delete action.
+Error handling in distributed systems
+Cloud resource management
+
